@@ -1,0 +1,39 @@
+
+Create a program that simulates a university course registration system using classes to represent students, courses, and enrollments. Your program should have a base class called 'Person' that includes the following data members and member functions:
+
+1. string name: the name of the person
+2.int id: a unique identifier for the person
+3. void setName(string name): a member function that sets the person's name
+4. string getName(): a member function that returns the person's name
+5. void setId(int id): a member function that sets the person's ID
+6. int getId(): a member function that returns the person's ID
+
+Create a derived class Teacher with attributes like teacher id (unique), department, coursesInrolled (Number of courses the Teacher is teaching).
+Your program should also have a derived class called 'Course' that includes the following data members and member functions:
+1. string name: the name of the course
+2. int id: a unique identifier for the course
+3. int capacity: the maximum number of students that can enroll in the course.
+4.Teacher: object of the teacher who is teaching this course.
+5. CreditHoures
+
+Your program should also have a derived class called 'Student' that inherits from the 'Person' class and includes the following additional data members and member functions:
+1. vector<Course> courses: a vector of pointers to Course objects representing the courses the student is enrolled in
+void addCourse(course object): a member function that adds a Course object to the courses
+vector
+2. void dropCourse(course id): a member function that removes a Course object from the
+courses vector
+3. Void displayAllCourses()
+4. Update a course info(course id)
+
+In main function you will have a vector of Courses offered by University. When university starts to offer a new course to students, it is added in this vector. 
+If a student is to be enrolled in one of these courses, this course must be passed to course vector present in that student's object.
+Your program should allow the user to create new students and courses, enroll students in courses, drop students from courses, and view the list of courses a student is enrolled in. 
+Additionally, the program should enforce capacity limits for courses, display an error message if a student tries to enroll in a full course, and display an error message if a student tries to drop a course, they are not enrolled in.
+Here are some specific requirements and guidelines for the program:
+When a new student or course is created, the user should be prompted for the appropriate information (name, ID, capacity, etc.).
+Student and course IDs should be assigned automatically and sequentially as they are created.
+The program should display a list of all students and courses, sorted by ID.
+The program should allow the user to enroll a student in a course by entering the student's ID and the course's ID.
+The program should display a list of all courses a student is enrolled in when the user enters the student's ID.
+The program should enforce capacity limits for courses, displaying an error message if a student tries to enroll in a full course.
+The program should display an error message if a student tries to drop a course they are not enrolled in.

@@ -1,0 +1,5 @@
+Inheritance is a same concept as in biology in which child inherit some qualities of parents.
+Same in OOP Inheritance is a fundamental concept in which one class has the qualities or properties of the existed Class. 
+The new class, called the derived or child class, inherits the properties and behaviors of the existing class, called the base or parent class. 
+This creates a heirachical relationship between the classes, where the derived class can access and use the data and methods of the base class, as well as add its own unique features. 
+Inheritance promotes code reusability, modularity, and the creation of more specialized and customized classes from the existing most generalized class, making the overall design of the program more organized, efficient and Optimized. It is a powerful tool that enables programmers to build complex systems by leveraging the existing functionality of related classes, while also allowing for the creation of new, specialized classes that can adapt and extend the original functionality as needed.

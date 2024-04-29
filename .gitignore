@@ -1,0 +1,5 @@
+# Ignore all files except .cpp and .h files
+!*.cpp
+!*.h
+*.zip
+*.vscode
