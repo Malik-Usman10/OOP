@@ -11,7 +11,8 @@ public:
 
   Address() : city_name(""), email(""), street_name("") {}
 
-  Address(const Address& other) {
+  Address(const Address& other) 
+  {
     city_name = other.city_name;
     email = other.email;
     street_name = other.street_name;
