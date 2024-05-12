@@ -56,28 +56,20 @@ Index must be greater than zero and less than size of the vector.
 > GENERAL INFO CLASS
 
 This class will hold the common information required for customers and staff.
-
 Data member:
-
 @ First_name nite “NIC should be 13 digits all
+@ Last_name
+® CNIC  CNIC Should be unique!! and it shoudl be 13 digits all numbers
+® Address Object 
 
-@ Last_name ( (oy nunmbers.!!
-
-® cNIC S ( CNIC Should be unique!!
-
-® Address Object M1
-
-@® Gender [We live in strange
-times, so gender will be an array.]
+@® Gender [We live in strange times, so gender will be an array.]
 
 Methods:
-
 @ Default constructor: This constructor will initialize the data member with default
 values.
 
 @ Copy Constructor: There will be Copy constructor which will copy all the elements
 of other object using Deep copy.
-
 ® Parameterized construct This will initialize the data members with given values
 
 ® Destructor
@@ -115,7 +107,6 @@ of other object using Deep copy.
 ® Parameterized construct This will initialize the data members with given values
 
 
-FALL 2024
 
 @ Destructor
 @ Getter and Setter for all Date Members
