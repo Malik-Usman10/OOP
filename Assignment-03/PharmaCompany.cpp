@@ -1,6 +1,5 @@
 #include "PharmaCompany.h"
 
-
 int PharmaCompany::nextID = 1;
 
 PharmaCompany::PharmaCompany() : companyID(nextID++), companyName(""), location("") {}
