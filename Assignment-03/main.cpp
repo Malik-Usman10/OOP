@@ -133,7 +133,8 @@ private:
   vector<string> mobile_no;
 };
 
-class Person {
+class Person 
+{
 public:
     Person() : first_name(""), last_name(""), cnic("") {}
 
